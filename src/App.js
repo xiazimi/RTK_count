@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import CounterOne from './pages/CounterOne';
+import CounterTwo from './pages/CounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CounterOne />
+      <hr />
+      <CounterTwo />
     </div>
   );
 }
